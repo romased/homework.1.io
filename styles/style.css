@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url(background.png);
+  background-image: url(../img/background.png);
 }
 h1 {
   font-family: "Arial";
@@ -36,7 +36,6 @@ div:last-child {
 img {
   width: 200px;
   height: 200px;
-  float: center;
 }
 .image {
   border-style: solid;
