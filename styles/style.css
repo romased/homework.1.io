@@ -1,0 +1,62 @@
+.wrapper {
+  background-image: url(background.png);
+}
+h1 {
+  font-family: "Arial";
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  /*браузер не видит тип данного шрифт*/
+  color: #1f1f1f;
+  font-weight: bold;
+  text-align: left;
+}
+.aboutme {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgba(31, 31, 31, 0.8);
+  line-height: 1.2;
+}
+div {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div:last-child {
+  border-bottom-style: none;
+}
+img {
+  width: 200px;
+  height: 200px;
+  float: center;
+}
+.image {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(143, 143, 143);
+  width: 200px;
+  height: 200px;
+}
+li {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  /*браузер не видит тип данного шрифт*/
+  color: #3a3a3a;
+  line-height: 1.2;
+}
+.text {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  /*браузер не видит тип данного шрифт*/
+  color: #3a3a3a;
+  line-height: 1.2;
+  padding-left: 40px;
+}
